@@ -1,16 +1,12 @@
 @import 'footer';
 @import 'menu';
+@import 'cart';
 
 $primary-color: #f09d51;
 $mainWhite: #fff;
 $mainBlack : #222;
 $mainGrey: #ececec;
 $mainSpacing: 0.1rem;
-
-
-body {
-    background: #dad8d8;
-}
 
 @mixin transition-linear {
     transition: all 0.3s linear;
@@ -19,6 +15,14 @@ body {
 .wrapper {
     padding: 0 5%;
 }
+
+body {
+    background: #dad8d8;
+}
+
+
+
+
 
 .product {
     h3 {
@@ -102,3 +106,7 @@ body {
     grid-column-gap: 1.5rem;
     grid-row-gap: 2rem;
 }
+
+// end main
+
+// 
