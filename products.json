@@ -11,7 +11,7 @@
         "image": {
           "fields": {
             "file": {
-              "url": "./img/product-1.jpg"
+              "url": "./img/product-3.jpg"
             }
           }
         }
@@ -35,24 +35,7 @@
         }
       }
     },
-    {
-      "sys": {
-        "id": "1"
-      },
-      "fields": {
-        "title": "SkB Annex Headquarters Circa-900",
-        "price": 1000.99,
-        "category": "In Design",
 
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./img/product-3.jpg"
-            }
-          }
-        }
-      }
-    },
     {
       "sys": {
         "id": "1"
@@ -161,24 +144,7 @@
         }
       }
     },
-    {
-      "sys": {
-        "id": "1"
-      },
-      "fields": {
-        "title": "SkB Annex Headquarters Circa-900",
-        "price": 1000.99,
-        "category": "In Design",
 
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./img/product-10.jpg"
-            }
-          }
-        }
-      }
-    },
     {
       "sys": {
         "id": "1"
