@@ -1,0 +1,104 @@
+@import 'footer';
+@import 'menu';
+
+$primary-color: #f09d51;
+$mainWhite: #fff;
+$mainBlack : #222;
+$mainGrey: #ececec;
+$mainSpacing: 0.1rem;
+
+
+body {
+    background: #dad8d8;
+}
+
+@mixin transition-linear {
+    transition: all 0.3s linear;
+}
+
+.wrapper {
+    padding: 0 5%;
+}
+
+.product {
+    h3 {
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+        letter-spacing: $mainSpacing;
+        text-align: left;
+        margin-bottom: 0 !important;
+    }
+
+    h4 {
+        // margin-top: 0.7rem;
+        letter-spacing: $mainSpacing;
+        color: $primary-color;
+        text-align: left;
+        // margin-bottom: 0;
+        text-transform: capitalize;
+        font-family: "Kaushan Script", cursive;
+    }
+
+
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+        .bag-btn {
+            transform: translateX(0);
+        }
+
+        .product-img {
+            opacity: 0.5;
+        }
+    }
+}
+
+
+
+
+.bag-btn {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    background: #f09d51;
+    border: none;
+    border-radius: 10px 0 10px 0;
+    text-transform: uppercase;
+    padding: 0.75rem 0.75rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    @include transition-linear;
+    transform: translateX(101%);
+    cursor: pointer;
+
+    &:hover {
+        color: $mainWhite;
+    }
+}
+
+
+
+.fa-shopping-cart {
+    margin-right: 0.5rem;
+}
+
+.product-img {
+    display: block;
+    width: 100%;
+    min-height: 12rem;
+    @include transition-linear;
+}
+
+.products-center {
+
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
