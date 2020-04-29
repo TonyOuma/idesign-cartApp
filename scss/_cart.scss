@@ -11,7 +11,7 @@
     background: #eaeaea;
     padding: 1.5rem;
     transition: transition-linear;
-    // transform: translateX(100%);
+    transform: translateX(100%);
 
 
     &-overlay {
@@ -23,7 +23,7 @@
         transition: transition-linear;
         background: #eaeaea;
         z-index: 2;
-        // visibility: hidden;
+        visibility: hidden;
     }
 
     h2 {
