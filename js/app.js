@@ -246,3 +246,14 @@ document.addEventListener("DOMContentLoaded", () => {
       ui.cartLogic();
     });
 });
+
+// Registration of the serviceWorker
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/js/serviceWorker.js")
+      .then((res) => console.log("Service Worker Registered"))
+      .catch((err) => console.log("Service worker not registered", err));
+  });
+}
