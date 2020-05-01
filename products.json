@@ -2,42 +2,6 @@
   "items": [
     {
       "sys": {
-        "id": "1"
-      },
-      "fields": {
-        "title": "SkB Annex Headquarters Circa-900",
-        "price": 10000.99,
-        "category": "In Design",
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./img/product-3.jpg"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "id": "2"
-      },
-      "fields": {
-        "title": "O'keeffe's home&Studio, New Mexico",
-        "price": 9999.99,
-        "category": "In Design",
-
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./img/product-2.jpg"
-            }
-          }
-        }
-      }
-    },
-
-    {
-      "sys": {
         "id": "3"
       },
       "fields": {
@@ -139,43 +103,6 @@
           "fields": {
             "file": {
               "url": "./img/product-9.jpg"
-            }
-          }
-        }
-      }
-    },
-
-    {
-      "sys": {
-        "id": "9"
-      },
-      "fields": {
-        "title": "SkB Annex Headquarters Circa-900",
-        "price": 10900.99,
-        "category": "In Design",
-
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./img/product-11.jpg"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "id": "10"
-      },
-      "fields": {
-        "title": "SkB Annex Headquarters Circa-900",
-        "price": 1700.99,
-        "category": "In Design",
-
-        "image": {
-          "fields": {
-            "file": {
-              "url": "./img/product-12.jpg"
             }
           }
         }

@@ -1,15 +1,19 @@
 header {
     padding: 2rem 0;
+    // background-color: #333;
+    // box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
 
     nav {
         display: flex;
         justify-content: space-between;
         text-transform: capitalize;
-        // padding: 2rem 0;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+        padding: 0 2rem;
 
         img {
             width: 25%;
             margin-left: 0 !important;
+            padding-top: 4px;
         }
 
         ul {
@@ -21,7 +25,20 @@ header {
             li {
                 list-style-type: none;
                 padding-left: 15px;
+
+
             }
+        }
+    }
+
+    .icon-display {
+        display: grid;
+        padding-right: 10px;
+        margin-top: 9px;
+
+        i {
+            font-size: 2rem;
+            text-align: center;
         }
     }
 
@@ -55,8 +72,8 @@ header {
 
     .cart-items {
         position: absolute;
-        top: 35px;
-        right: 90px;
+        top: 4%;
+        right: 6%;
         padding: 2px 5px;
         border-radius: 45%;
         background: #f09d51;

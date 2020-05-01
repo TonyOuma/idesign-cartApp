@@ -11,12 +11,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#db4938">
+
+    <!-- tag to refresh page after 30s -->
+    <!-- <meta http-equiv="refresh" content="30"> -->
     <link rel="stylesheet" href="./dist/css/main.min.css">
+    <link rel="icon" href="/img/logo-white.png">
     <link rel="stylesheet" href="./dist/css/foundation.min.css">
     <!-- <link rel="stylesheet" href="./dist/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="./dist/css/all.css">
     <link rel="manifest" href="./manifest.json">
-    <title>idesign-cart</title>
+    <title>icart</title>
 </head>
 
 <body>
@@ -38,7 +42,10 @@
             </div>
             <div class="column medium-5 small-12">
                 <div class="menu align-right">
-                    <li>welcome user</li>
+                    <li class="icon-display">
+                        <i class="fas fa-user-circle"></i>
+                        <h5>Ouma T.</h5>
+                    </li>
                     <li>
                         <div class="input-group">
                             <div class="input-group-button">
@@ -64,14 +71,15 @@
     <!--end header -->
 
     <!-- Main -->
+    <main>
+        <div class="row expanded wrapper">
 
-    <div class="row expanded wrapper">
-
-        <!-- leftNav -->
-        <div class="columns medium-8  small-12 ">
-            <div class="products-center">
-                <!-- single product -->
-                <!-- <article class="product">
+            <!-- leftNav -->
+            <div class="columns medium-8  small-12 ">
+                <h3>featured products</h3>
+                <div class="products-center">
+                    <!-- single product -->
+                    <!-- <article class="product">
                             <div class="img-container">
                                 <img src="./img/product-5.jpg" class="product-img" alt="product">
                                 <button class="bag-btn" data-id="1">
@@ -83,25 +91,103 @@
                             <h5>Interior Designs</h5>
                             <h4>$16</h4>
                         </article> -->
-                <!-- end single product -->
+                    <!-- end single product -->
+                </div>
+                <span class="load"><a href="#!"><i class="fas fa-spinner fa-1x"></i> Load More... </a></span>
 
+            </div>
+
+            <!-- end left Nav -->
+
+            <!-- Begin Right Nav -->
+            <div class="columns medium-4 small-12 ">
+
+                <div class="row">
+                    <div class="ps-content">
+                        <h2>About us</h2>
+                        <!-- <span class="ps-price">£65</span> -->
+                        <p>For increased stability, re-tighten the screws about two weeks after assembly. Seat and back
+                            with
+                            restful
+                            flexibility; prevents a static sitting posture and enhances comfort.
+                            For increased stability, re-tighten the screws about two weeks after assembly. Seat and back
+                            with
+                            restful
+                            flexibility; prevents a static sitting posture and enhances comfort.
+
+                            flexibility; prevents a static sitting posture and enhances comfort.</p>
+                        <a href="#!">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+
+                </div>
+                <div class="row tag-space">
+                    <div class="ps-content">
+                        <h3>Tag #Space</h3>
+                        <div class="tagcloud">
+                            <a href="#" class="tag-cloud-link">Office space</a>
+                            <a href="#" class="tag-cloud-link">gym</a>
+                            <a href="#" class="tag-cloud-link">Architecture</a>
+                            <a href="#" class="tag-cloud-link">Balcony</a>
+                            <a href="#" class="tag-cloud-link">Work station</a>
+                            <a href="#" class="tag-cloud-link">table</a>
+                            <a href="#" class="tag-cloud-link">Living room</a>
+                            <a href="#" class="tag-cloud-link">exterior</a>
+                            <a href="#" class="tag-cloud-link">industrial</a>
+                            <a href="#" class="tag-cloud-link">Office space</a>
+                            <a href="#" class="tag-cloud-link">Dinning Set</a>
+                            <a href="#" class="tag-cloud-link">Architecture</a>
+                            <a href="#" class="tag-cloud-link">Balcony</a>
+                            <a href="#" class="tag-cloud-link">Architecture</a>
+                            <a href="#" class="tag-cloud-link">table</a>
+                            <a href="#" class="tag-cloud-link">Living room</a>
+                            <a href="#" class="tag-cloud-link">exterior</a>
+                            <a href="#" class="tag-cloud-link">industrial</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class=" reviews">
+                        <h2>Reviews</h2>
+                        <span class="single-item"><i class="fas fa-user-circle"></i></span>
+                        <p>For increased stability, re-tighten the screws about two weeks after assembly. Seat and back
+                            with
+                            <i class="fas fa-thumbs-up"></i>
+                        </p>
+                        <span class="single-item"><i class="fas fa-user-circle"></i></span>
+                        <p>For increased stability, re-tighten the screws about two weeks after assembly. Seat and back
+                            with <i class="fas fa-heart"></i>
+                        </p>
+                        <span class="single-item"><i class="fas fa-user-circle"></i></span>
+                        <p>For increased stability, re-tighten the screws about two weeks after assembly. Seat and back
+                            with<i class="fas fa-heart"></i>
+                        </p>
+                        <span class="single-item"><i class="fas fa-user-circle"></i></span>
+                        <p>For increased stability, re-tighten the screws about two weeks after assembly. Seat and back
+                            with <i class="fas fa-thumbs-up"></i>
+                        </p>
+                        <a href="#!">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+
+                </div>
+
+
+                <!-- <div class="ps-content">
+                <h2>Tobias</h2>
+                <span class="ps-price">£65</span>
+                <p>For increased stability, re-tighten the screws about two weeks after assembly. Seat and back with
+                    restful
+                    flexibility; prevents a static sitting posture and enhances comfort.</p>
+                <a href="http://www.ikea.com/gb/en/catalog/products/90185320/#/20115038">Buy this item</a>
+            </div> -->
             </div>
         </div>
 
-        <!-- end left Nav -->
-
-        <!-- Begin Right Nav -->
-        <div class="columns medium-3 small-12 medium-offset-1">
-
-
-        </div>
-    </div>
-
-    <!-- end Right Nav -->
+        <!-- end Right Nav -->
 
 
 
-    </div>
+    </main>
     <!-- end Main -->
 
     <!-- cart -->
