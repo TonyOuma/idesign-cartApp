@@ -27,11 +27,34 @@ body {
 
 
 
+
+
 .product {
+    hr {
+        width: 18.5%;
+        margin-left: 21.2%;
+        margin-top: 0;
+        border-bottom: 3px solid #f09d51;
+    }
+
+    h2 {
+        span {
+            color: $primary-color;
+        }
+
+        text-transform: capitalize;
+        // font-size: 1.1rem;
+        // margin-top: 0.5rem;
+        letter-spacing: $mainSpacing;
+        text-align: left;
+        margin-bottom: 0 !important;
+    }
+
+
     h3 {
         text-transform: capitalize;
         font-size: 1.1rem;
-        margin-top: 0.5rem;
+        // margin-top: 0.5rem;
         letter-spacing: $mainSpacing;
         text-align: left;
         margin-bottom: 0 !important;
@@ -286,5 +309,3 @@ main {
 // .ps-content p {}
 
 // end main
-
-// 
