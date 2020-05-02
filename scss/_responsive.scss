@@ -51,7 +51,6 @@
 
         nav {
             display: block;
-            // border-left: 10px;
 
             img {
                 width: 70%;
@@ -60,7 +59,6 @@
             }
 
             ul {
-                // display: flex;
                 margin-top: 1.0rem;
                 padding-bottom: 1rem;
             }
@@ -124,12 +122,3 @@
         padding-right: 26% !important;
     }
 }
-
-// @include medium-only {//     header {
-//         display: flex;
-//     }
-
-//     .cart-items {
-//         top: 16%;
-//     }
-// }
