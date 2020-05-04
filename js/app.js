@@ -1,3 +1,7 @@
+/**
+ * Code By TonyO.
+ */
+
 // variables
 
 const cartBtn = document.querySelector(".cart-btn");

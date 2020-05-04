@@ -15,6 +15,11 @@ $mainSpacing: 0.1rem;
     transition: all 0.3s linear;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 .wrapper {
     padding: 0 5%;
 }
