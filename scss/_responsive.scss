@@ -7,6 +7,12 @@
     }
 }
 
+@mixin iPad {
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+        @content;
+    }
+}
+
 // Medium and up
 @mixin medium-up {
     @media screen and (min-width: 40em) {
@@ -120,5 +126,15 @@
 
     .load a {
         padding-right: 26% !important;
+    }
+}
+
+@include iPad {
+    header {
+
+
+        nav {
+            display: block !important;
+        }
     }
 }
